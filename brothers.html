@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, maximum-scale=1">
+
+        <title>Brothers</title>
+
+        <link rel="icon" href="favicon.png" type="image/png">
+        <link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
+
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
+
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="css/responsive.css" rel="stylesheet" type="text/css">
+        <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+        <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+
+        <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.isotope.js"></script>
+        <script type="text/javascript" src="js/wow.js"></script>
+        <script type="text/javascript" src="js/classie.js"></script>
+
+    </head>
+
+    <body>
+        <nav class="animated fadeInDown delay-02s main-nav-outer fuckingCentered" id="test">
+            <div class="container">
+                <ul class="main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="brothers.html">Brothers</a></li>
+                    <li class="small-logo"><a href="#header"><img src="img/logoETA.png" style="height: 40px; margin-bottom: 5px;"></a></li>
+                    <li><a href="social.html">Social Media</a></li>
+                    <li><a href="awards.html">Awards</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+            </div>
+        </nav>
+
+        <section class="main-section team" id="team">
+            <div class="container">
+                <h2>Our Brothers</h2>
+
+                <hr><br><br>
+
+                <h6> Executive Board </h6>
+                <div class="team-leader-block clearfix exec"> </div>
+
+                <hr>
+
+                <div class="team-leader-block clearfix brothers"></div>
+
+                <!--<div class="team-leader-box">
+                        <div class="team-leader wow fadeInDown delay-03s"> 
+                            <div class="team-leader-shadow"></div>
+                            <img src="img/blankuser.jpg" alt="">
+                            <ul>
+                                <li>this guy sucks</li>
+                            </ul>
+                        </div>
+                        <h3 class="wow fadeInDown delay-03s">Joseph Ayoub</h3>
+                    </div>-->
+            </div>
+        </section>
+
+        <script>
+        wow = new WOW({
+            animateClass: 'animated',
+            offset: 100
+        });
+
+        wow.init();
+        </script>
+
+        <script type="text/javascript">
+            $(window).load(function(){
+                var content = "";
+                var brothersArr = {
+                    "Santiago Noguera": "",
+                    "Paul Hazan": "",
+                    "Jesse Bengel": "",
+                    "Sebastian Lecha": "Senior Chair",
+                    "Hugo Caldwell": "External Philathropy Chair",
+                    "Michael Cassano": "",
+                    "Zachary Goldman": "",
+                    "Brian Tran-Dac": "Greek Week Chair",
+                    "Ryan Connors": "",
+                    "Anthony Starego": "",
+                    "Peter Danis": "Public Relations Chair",
+                    "Elias Yishak": "",
+                    "Jared McKee": "Public Relations Chair",
+                    "Kurt Barsotti": "TerpThon Chair",
+                    "Mark Bedanov-Pack": "Scholarship Chair",
+                    "Zachary Lessner": "",
+                    "Perry Ganz": "Sentinel",
+                    "Max Cislo": "Athletics Chair",
+                    "Joseph Hathway": "Brotherhood Chair",
+                    "Michael Kelleher": "President",
+                    "Connor Bell": "Away Weekend Chair",
+                    "Zachary Yale": "House Manager",
+                    "Tyler Weiss": "Treasurer",
+                    "Gunnar Terjesen": "Away Weekend Chair",
+                    "Alex Littlehales": "",
+                    "Harry Culleton": "Social Chair",
+                    "Colin Wagner": "",
+                    "Samuel Lupo": "",
+                    "Matt Labib": "",
+                    "Joshua Schnitzer": "Vice President",
+                    "Brian McKeon": "Rush Chair",
+                    "Nicholas Garibaldi": "Inductor",
+                    "Ryan Boyd": "Rush Chair",
+                    "Joseph Cipolla": "",
+                    "Brandon Segal": "",
+                    "Brandon Kao": "Secretary",
+                    "Benjamin Eapen": "Social Chair",
+                    "Shawn Glabach": "",
+                    "Michael Berhane": "Diversity Chair",
+                    "Harrison Kraus": "\"Lit\" Chair",
+                    "Jordan Riese": "",
+                    "Robert Lewis": "Fundraising Chair",
+                    "Jacob Chavis": "Website Chair",
+                    "James Corley": "Rush Chair",
+                    "Liam Fulling": "",
+                    "Benjamin Fleury V": "",
+                    "David Klotz": "",
+                    "Justin Frankle": ""
+                };
+
+                var exec = {};
+                var delay = 2;
+
+                for (var brother in brothersArr) {
+                    if (brothersArr[brother] == "President" ||
+                        brothersArr[brother] == "Vice President" ||
+                        brothersArr[brother] == "Secretary" ||
+                        brothersArr[brother] == "Treasurer" ||
+                        brothersArr[brother] == "Sentinel" ||
+                        brothersArr[brother] == "Inductor") {
+
+                        exec[brothersArr[brother]] = brother;
+                    } else {
+                        content += '<div class="team-leader-box">' + 
+                            '<div class="team-leader wow fadeInDown delay-0' + delay + 's">' + 
+                                '<img src="img/brothers/' + brother + '.jpg" onerror="this.src=\'img/blankuser.jpg\';">' +
+                            '</div>' + 
+                            '<h3 class="wow fadeInDown delay-0' + delay + 's">' + brother + '</h3>' +
+                            '<span class="wow fadeInDown delay-0' + delay + 's">' + brothersArr[brother] + '</span>' +
+                        '</div>';
+
+                        delay += 2;
+                        delay == 8 ? delay = 2 : delay = delay;
+                    }
+                }
+
+                $('.brothers').html(content);
+
+                content = '<div class="team-leader-box">' +
+                    '<div class="team-leader wow fadeInDown delay-03s">' + 
+                        '<img src="img/brothers/' + exec["Vice President"] + '.jpg" onerror="this.src=\'img/blankuser.jpg\';">' +
+                    '</div>' + 
+                    '<h3 class="wow fadeInDown delay-03s">' + exec["Vice President"] + '</h3>' +
+                    '<span class="wow fadeInDown delay-03s"> Vice President </span>' +
+                '</div>' +
+                '<div class="team-leader-box">'+
+                    '<div class="team-leader wow fadeInDown delay-06s">' +
+                        '<img src="img/brothers/' + exec["President"] + '.jpg" onerror="this.src=\'img/blankuser.jpg\';">' +
+                    '</div>' +
+                    '<h3 class="wow fadeInDown delay-06s">' + exec["President"] + '</h3>' +
+                    '<span class="wow fadeInDown delay-06s"> President </span>' +
+                '</div>' + 
+                '<div class="team-leader-box">' +
+                    '<div class="team-leader wow fadeInDown delay-09s">' +
+                        '<img src="img/brothers/' + exec["Secretary"] + '.jpg" onerror="this.src=\'img/blankuser.jpg\';">' +
+                    '</div>' +
+                    '<h3 class="wow fadeInDown delay-09s">' + exec["Secretary"] + '</h3>' +
+                    '<span class="wow fadeInDown delay-09s"> Secretary </span>' +
+                '</div>' +
+                '<div class="team-leader-box">' + 
+                    '<div class="team-leader wow fadeInDown delay-03s">' + 
+                        '<img src="img/brothers/' + exec["Treasurer"] + '.jpg" onerror="this.src=\'img/blankuser.jpg\';">' +
+                    '</div>' + 
+                    '<h3 class="wow fadeInDown delay-03s">' + exec["Treasurer"] + '</h3>' +
+                    '<span class="wow fadeInDown delay-03s"> Treasurer </span>' +
+                '</div>' +
+                '<div class="team-leader-box">'+
+                    '<div class="team-leader wow fadeInDown delay-06s">' +
+                        '<img src="img/brothers/' + exec["Inductor"] + '.jpg" onerror="this.src=\'img/blankuser.jpg\';">' +
+                    '</div>' +
+                    '<h3 class="wow fadeInDown delay-06s">' + exec["Inductor"] + '</h3>' +
+                    '<span class="wow fadeInDown delay-06s"> Inductor </span>' +
+                '</div>' + 
+                '<div class="team-leader-box">'+
+                    '<div class="team-leader wow fadeInDown delay-09s">' +
+                        '<img src="img/brothers/' + exec["Sentinel"] + '.jpg" onerror="this.src=\'img/blankuser.jpg\';">' +
+                    '</div>' +
+                    '<h3 class="wow fadeInDown delay-09s">' + exec["Sentinel"] + '</h3>' +
+                    '<span class="wow fadeInDown delay-09s"> Sentinel </span>' +
+                '</div>';
+
+                $( '.exec' ).html(content);
+
+
+                $('.main-nav li a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top - 102
+                    }, 1500,'easeInOutExpo');
+
+                    event.preventDefault();
+                });
+
+                wow.init();
+            })
+        </script>
+
+    </body>
+</html>
