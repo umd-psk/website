@@ -1,11 +1,10 @@
 import React from 'react'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import WOW from 'wowjs'
 
 import logo from './logo.svg'
 import './UINav.css'
 
-export default class MainNavbar extends React.Component {
+export default class UINav extends React.Component {
   constructor(props) {
     super(props);
 
