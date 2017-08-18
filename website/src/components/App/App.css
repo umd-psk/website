@@ -145,3 +145,27 @@
   font-weight: bold;
   margin: 50px;
 }
+
+.delay-01s {
+  animation-delay: 0.1s;
+}
+
+.delay-02s {
+  animation-delay: 0.2s;
+}
+
+.delay-03s {
+  animation-delay: 0.3s;
+}
+
+.delay-04s {
+  animation-delay: 0.4s;
+}
+
+.delay-05s {
+  animation-delay: 0.5s;
+}
+
+.delay-06s {
+  animation-delay: 0.5s;
+}
