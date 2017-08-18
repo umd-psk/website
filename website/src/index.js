@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import HomePage from './routes/HomePage';
 import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap-css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const routes = (
+  <Route path="/" component={HomePage} />
+);
+
+ReactDOM.render(
+  <Router>{routes}</Router>, document.getElementById('root')
+);
 registerServiceWorker();
