@@ -143,29 +143,13 @@
   font-size: 3.5em;
   text-align: center;
   font-weight: bold;
-  margin: 50px;
+  margin: 50px 0 20px;
 }
 
-.delay-01s {
-  animation-delay: 0.1s;
-}
-
-.delay-02s {
-  animation-delay: 0.2s;
-}
-
-.delay-03s {
-  animation-delay: 0.3s;
-}
-
-.delay-04s {
-  animation-delay: 0.4s;
-}
-
-.delay-05s {
-  animation-delay: 0.5s;
-}
-
-.delay-06s {
-  animation-delay: 0.5s;
+.pageSubtitle {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0 40px;
 }

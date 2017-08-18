@@ -67,8 +67,9 @@ export default class BrothersPage extends React.Component {
     return (
       <App>
         <Container>
-          <h1 className="pageTitle" data-aos="fade-down"> Brothers </h1>
-          <Row className="text-center">
+          <h1 className='pageTitle' data-aos='fade-down'> Brothers </h1>
+          <h2 className='pageSubtitle red' data-aos='fade-down' data-aos-delay='100'> Spring 2017 </h2>
+          <Row className='text-center'>
             {brothers}
           </Row>
         </Container>

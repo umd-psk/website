@@ -1,3 +1,7 @@
+.brother {
+  margin-bottom: 40px;
+}
+
 .brother h5 {
   text-transform: uppercase;
   color: #c90e3a;
@@ -10,8 +14,13 @@
     overflow: hidden;
     margin: 0 auto;
     border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 .brother .crop img {
     height: 100%;
+}
+
+.blank img {
+    margin-left: -20px;
 }
