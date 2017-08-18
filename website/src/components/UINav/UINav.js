@@ -22,34 +22,34 @@ export default class UINav extends React.Component {
 
   render() {
     return (
-      <Navbar color="faded" light toggleable="sm" fixed={(this.props.fixed) && "bottom"}>
+      <Navbar color='faded' light toggleable="sm" fixed={(this.props.fixed) && "bottom"}>
         <NavbarToggler right onClick={this.toggle} />
         <NavbarBrand className="abs">
           Phi Sig UMD
-          <img src={logo} alt="ETA Chapter"/>
+          <img src={logo} alt='ETA Chapter'/>
           ETA Chapter
         </NavbarBrand>
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink tag={Link} to="/">Home</NavLink>
+              <NavLink tag={Link} to='/'>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={Link} to="/about">About</NavLink>
+              <NavLink tag={Link} to='/about'>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={Link} to="/brothers">Brothers</NavLink>
+              <NavLink tag={Link} to='/brothers'>Brothers</NavLink>
             </NavItem>
           </Nav>
-          <Nav className="ml-auto" navbar>
+          <Nav className='ml-auto' navbar>
             <NavItem>
-              <NavLink href="/">Social</NavLink>
+              <NavLink href='/'>Social</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Awards</NavLink>
+              <NavLink href='/'>Awards</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Log In</NavLink>
+              <NavLink href='/'>Log In</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
