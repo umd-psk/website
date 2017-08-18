@@ -1,27 +1,27 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import App from '../../components/App'
-import './AboutPage.css'
 import logo from './logo.svg'
+import './AboutPage.css'
 
 export default class About extends React.Component {
   render() {
     return (
       <App>
         <Container>
-          <h1 className="pageTitle animated fadeInDown"> About Us </h1>
+          <h1 className="pageTitle" data-aos="fade-down"> About Us </h1>
           <Row className="align-items-center">
-            <Col md='5'>
+            <Col md='5' data-aos="fade-right">
               <img src={logo} alt='' />
             </Col>
 
-            <Col md={{ size: 5, offset: 2 }}>
+            <Col md={{ size: 5, offset: 2 }} data-aos="fade-left">
               <h1> Mission Statement </h1>
               <p> <b className="red">Phi Sigma Kappa</b> is a lifelong brotherhood dedicated to the <em>betterment of the individual</em>, the university community, and our world, by giving its members opportunities to <b>develop leadership skills</b>, participate in service to others, achieve <b>academic excellence</b>, experience cultural diversity and practice <b>personal integrity</b>. </p>
             </Col>
           </Row>
         </Container>
-        <Container fluid className="creed">
+        <Container fluid className="creed" data-aos="fade-up">
           <Row>
             <Col md={{ size: 8, offset: 2 }}>
               <h1> The Phi Sigma Kappa Creed </h1>
@@ -33,7 +33,7 @@ export default class About extends React.Component {
             </Col>
           </Row>
         </Container>
-        <Container className="principles">
+        <Container className="principles" data-aos="fade-down">
           <Row>
             <Col md={{ size: 8, offset: 2 }}>
               <h1> Our Cardinal Principles </h1>

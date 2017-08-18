@@ -1,8 +1,16 @@
 import React from 'react'
 import Navbar from '../UINav'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 import './App.css'
 
 export default class App extends React.Component {
+  constructor() {
+    super();
+
+    AOS.init();
+  }
+
   render(props) {
     return (
       <div>

@@ -7,8 +7,6 @@ import 'bootstrap-css';
 import HomePage from './routes/HomePage';
 import AboutPage from './routes/AboutPage';
 
-
-
 const routes = (
   <div>
     <Route exact path="/" component={HomePage} />
