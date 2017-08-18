@@ -1,7 +1,7 @@
 import React from 'react'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
-import logo from './logo.svg'
+import logo from './red-logo.svg'
 import './UINav.css'
 
 export default class UINav extends React.Component {
@@ -25,7 +25,10 @@ export default class UINav extends React.Component {
       <div>
         <Navbar color="faded" light toggleable="sm">
           <NavbarToggler right onClick={this.toggle} />
-          <NavbarBrand className="abs" href="/">Phi Sigma Kappa</NavbarBrand>
+          <NavbarBrand className="abs">
+            <img src={logo} alt="ETA Chapter"/>
+            Phi Sigma Kappa
+          </NavbarBrand>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>

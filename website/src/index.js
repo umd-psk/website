@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MainNavbar from './components/MainNavbar';
+import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap-css';
 
-ReactDOM.render(<MainNavbar />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
