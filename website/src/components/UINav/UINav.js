@@ -21,40 +21,38 @@ export default class UINav extends React.Component {
 
   render() {
     return (
-      <div>
-        <Navbar color="faded" light toggleable="sm" fixed={(this.props.fixed) && "bottom"}>
-          <NavbarToggler right onClick={this.toggle} />
-          <NavbarBrand className="abs">
-            Phi Sig UMD
-            <img src={logo} alt="ETA Chapter"/>
-            ETA Chapter
-          </NavbarBrand>
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav navbar>
-              <NavItem>
-                <NavLink href="/">Home</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/">About</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/">Brothers</NavLink>
-              </NavItem>
-            </Nav>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/">Social</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/">Awards</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/">Log In</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </div>
+      <Navbar color="faded" light toggleable="sm" fixed={(this.props.fixed) && "bottom"}>
+        <NavbarToggler right onClick={this.toggle} />
+        <NavbarBrand className="abs">
+          Phi Sig UMD
+          <img src={logo} alt="ETA Chapter"/>
+          ETA Chapter
+        </NavbarBrand>
+        <Collapse isOpen={this.state.isOpen} navbar>
+          <Nav navbar>
+            <NavItem>
+              <NavLink href="/">Home</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">Brothers</NavLink>
+            </NavItem>
+          </Nav>
+          <Nav className="ml-auto" navbar>
+            <NavItem>
+              <NavLink href="/">Social</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">Awards</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">Log In</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
     );
   }
 }
