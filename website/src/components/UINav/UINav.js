@@ -22,7 +22,7 @@ export default class UINav extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="faded" light toggleable="sm">
+        <Navbar color="faded" light toggleable="sm" fixed={(this.props.fixed) && "bottom"}>
           <NavbarToggler right onClick={this.toggle} />
           <NavbarBrand className="abs">
             Phi Sig UMD

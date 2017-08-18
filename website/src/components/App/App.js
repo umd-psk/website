@@ -6,7 +6,7 @@ export default class App extends React.Component {
   render(props) {
     return (
       <div>
-        <Navbar />
+        <Navbar fixed={this.props.HomePage} />
         {this.props.children}
       </div>
     );
