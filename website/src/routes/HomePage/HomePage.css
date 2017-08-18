@@ -4,6 +4,7 @@
   	left: 0;
   	right: 0;
   	height: 100%;
+    z-index: -1;
 
   	background: linear-gradient(
                        rgba(10,10,10, .5),
@@ -14,12 +15,12 @@
   	filter: blur(10px);
 }
 
-.navbar {
+.navbar.fixed-bottom {
   border-bottom: 0;
   border-top: #c90e3a 5px solid;
 }
 
-.container {
+.titlePage {
   margin-top: 15vh;
   text-align: center;
   color: white;
@@ -28,17 +29,17 @@
   letter-spacing: 0.05em;
 }
 
-.container img {
+.titlePage img {
   max-height: 150px;
   margin-bottom: 20px;
 }
 
-.container h1 {
+.titlePage h1 {
   font-size: 3.5rem;
   font-weight: bold;
 }
 
-.container h4 {
+.titlePage h4 {
   color: #c90e3a;
   font-weight: bold;
   margin-top: 20px;

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Link } from 'react-router-dom'
 import logo from './red-logo.svg'
 import './UINav.css'
 
@@ -31,13 +32,13 @@ export default class UINav extends React.Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/">Home</NavLink>
+              <NavLink tag={Link} to="/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">About</NavLink>
+              <NavLink tag={Link} to="/about">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Brothers</NavLink>
+              <NavLink tag={Link} to="/brothers">Brothers</NavLink>
             </NavItem>
           </Nav>
           <Nav className="ml-auto" navbar>

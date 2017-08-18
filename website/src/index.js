@@ -10,8 +10,10 @@ import AboutPage from './routes/AboutPage';
 
 
 const routes = (
-  <Route path="/" component={HomePage} />
-  <Route path="/about" component={About} />
+  <div>
+    <Route exact path="/" component={HomePage} />
+    <Route path="/about" component={AboutPage} />
+  </div>
 );
 
 ReactDOM.render(

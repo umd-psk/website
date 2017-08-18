@@ -9,7 +9,7 @@ export default class Home extends React.Component {
       <div>
         <App HomePage>
           <div className='bg-img'></div>
-          <div className='container'>
+          <div className='titlePage'>
             <img src={logo} alt='' />
             <h1 className='animated fadeInDown delay-07s'>Phi Sigma Kappa</h1>
                 <h3> <b>Brotherhood.</b> Scholarship. <b>Character.</b> </h3>
