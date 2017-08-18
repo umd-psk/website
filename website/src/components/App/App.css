@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url("fonts/greycliff-cf-regular-oblique.woff2") format("woff2"), url("fonts/greycliff-cf-regular-oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url("fonts/greycliff-cf-regular.woff2") format("woff2"), url("fonts/greycliff-cf-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url("fonts/greycliff-cf-medium-oblique.woff2") format("woff2"), url("fonts/greycliff-cf-medium-oblique.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url("fonts/greycliff-cf-medium.woff2") format("woff2"), url("fonts/greycliff-cf-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url("fonts/greycliff-cf-heavy-oblique.woff2") format("woff2"), url("fonts/greycliff-cf-heavy-oblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url("fonts/greycliff-cf-heavy.woff2") format("woff2"), url("fonts/greycliff-cf-heavy.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sans {
+  font-family: "GreycliffCF", Arial, Verdana, sans-serif;
+}
+
+.grey {
+  color: #ababab;
+}
+
+.lt-grey {
+  color: #d5d5d5;
+}
+
+.vlt-grey {
+  color: #ebebeb;
+}
+
+.black {
+  color: #000;
+}
+
+.red {
+  color: #c90e3a;
+}
+
+.dk-red {
+  color: #960a2b;
+}
+
+.white {
+  color: #fff;
+}
+
+.grey-bg {
+  background: #ababab;
+}
+
+.lt-grey-bg {
+  background: #d5d5d5;
+}
+
+.vlt-grey-bg {
+  background: #ebebeb;
+}
+
+.black-bg {
+  background: #000;
+}
+
+.red-bg {
+  background: #c90e3a;
+}
+
+.dk-red-bg {
+  background: #960a2b;
+}
+
+.white-bg {
+  background: #fff;
+}
+
+.italic {
+  font-style: italic; }
+
+.normal {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.center {
+  text-align: center;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.space {
+  letter-spacing: .1em;
+}
+
+.space2 {
+  letter-spacing: .2em;
+}
