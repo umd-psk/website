@@ -26,8 +26,9 @@ export default class UINav extends React.Component {
         <Navbar color="faded" light toggleable="sm">
           <NavbarToggler right onClick={this.toggle} />
           <NavbarBrand className="abs">
+            Phi Sig UMD
             <img src={logo} alt="ETA Chapter"/>
-            Phi Sigma Kappa
+            ETA Chapter
           </NavbarBrand>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
