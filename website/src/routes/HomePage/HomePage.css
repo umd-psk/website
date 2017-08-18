@@ -1,0 +1,45 @@
+.bg-img {
+  	position: absolute;
+    top: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+
+  	background: linear-gradient(
+                       rgba(10,10,10, .5),
+                       rgba(10,10,10, .5)),
+                       url(bg.png) no-repeat center center fixed;
+
+  	background-size: cover;
+  	filter: blur(10px);
+}
+
+.navbar {
+  border-bottom: 0;
+  border-top: #c90e3a 5px solid;
+}
+
+.container {
+  margin-top: 15vh;
+  text-align: center;
+  color: white;
+  font-family: 'GreycliffCF';
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.container img {
+  max-height: 150px;
+  margin-bottom: 20px;
+}
+
+.container h1 {
+  font-weight: bold;
+}
+
+.container h4 {
+  color: #c90e3a;
+  font-weight: bold;
+  margin-top: 20px;
+  -webkit-text-stroke: 1px white;
+}
