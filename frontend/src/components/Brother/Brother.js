@@ -6,17 +6,17 @@ const brotherFolder = require.context('./brothers', false);
 export default class Brother extends React.Component {
   render() {
     let src = 'blank.png'
-    let notFound = 'crop';
+    let notFound = false;
     try {
       src = brotherFolder('./' + this.props._name + '.jpg', true);
     } catch(e) {
       src = brotherFolder('./blank.png', true);
-      notFound = 'crop blank';
+      notFound = true;
     }
 
     return (
       <div className='brother'>
-        <div className={notFound}>
+        <div className={(notFound) ? 'crop blank' : 'crop'}>
           <img src={src} alt='' />
         </div>
         <h3>{this.props._name}</h3>
