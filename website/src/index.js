@@ -8,6 +8,7 @@ import HomePage from './routes/HomePage';
 import AboutPage from './routes/AboutPage';
 import BrothersPage from './routes/BrothersPage';
 import RushPage from './routes/RushPage';
+import AwardsPage from './routes/AwardsPage';
 
 const routes = (
   <div>
@@ -15,6 +16,7 @@ const routes = (
     <Route path="/about" component={AboutPage} />
     <Route path="/brothers" component={BrothersPage} />
     <Route path="/rush" component={RushPage} />
+    <Route path="/awards" component={AwardsPage} />
   </div>
 );
 

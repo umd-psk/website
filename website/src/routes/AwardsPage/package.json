@@ -1,6 +1,6 @@
 {
-   "name": "BrothersPage",
+   "name": "AwardsPage",
    "version": "0.0.0",
    "private": true,
-   "main": "./BrothersPage.js"
+   "main": "./AwardsPage.js"
 }

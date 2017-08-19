@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap'
 import App from '../../components/App'
 import Award from '../../components/Award'
 
-export default class Awards extends React.Component {
+export default class AwardsPage extends React.Component {
   render() {
     return (
       <App>
