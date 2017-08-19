@@ -1,7 +1,6 @@
 .award {
   background: #fff;
   padding: 30px 0;
-  margin: 30px;
   font-family: 'GreyCliffCF';
 }
 
@@ -10,8 +9,14 @@
   color: #fff;
 }
 
-.awardWrapper {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+.award h1, h2 {
+  text-transform: uppercase;
+}
+
+.award h1 {
+  font-weight: bold;
+}
+
+.awardCol {
+  padding: 10px;
 }
