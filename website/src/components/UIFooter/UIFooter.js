@@ -25,13 +25,13 @@ const UIFooter = () => (
       </Row>
     </Container>
     <Container fluid className="contact">
-      <span className="fa fa-3x fa-map-marker" />
-      <h3><b>2 Fraternity Row</b></h3>
-      <h3>College Park, MD 20742</h3>
+      <span className="fa fa-2x fa-map-marker" />
+      <h5><b>2 Fraternity Row</b></h5>
+      <h5>College Park, MD 20742</h5>
       <br />
       <a href="mailto:umdpsk.president@gmail.com" target="_top">
-        <span className="fa fa-4x fa-envelope"></span>
-        <h3>Contact Us</h3>
+        <span className="fa fa-2x fa-envelope"></span>
+        <h5>Contact Us</h5>
       </a>
     </Container>
     <Container fluid className="footerFoot">
