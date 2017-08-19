@@ -10,7 +10,9 @@ export default class UINav extends React.Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false
+      isOpen: false,
+      title1: "Phi Sig UMD",
+      title2: "ETA Chapter"
     };
   }
 
@@ -20,14 +22,34 @@ export default class UINav extends React.Component {
     });
   }
 
+  updateDimensions() {
+    if (window.innerWidth > 420 && !(window.innerWidth > 767 && window.innerWidth < 845)) {
+      this.setState({title1: "Phi Sig UMD", title2: "ETA Chapter"});
+    } else {
+      this.setState({title1: "Phi Sig", title2: "ETA"});
+    }
+  }
+
+  componentWillMount() {
+    this.updateDimensions();
+  }
+
+  componentDidMount() {
+    window.addEventListener("resize", this.updateDimensions.bind(this));
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateDimensions.bind(this));
+  }
+
   render() {
     return (
       <Navbar color='faded' light toggleable="sm" fixed={(this.props.fixed) && "bottom"}>
         <NavbarToggler right onClick={this.toggle} />
         <NavbarBrand className="abs">
-          Phi Sig UMD
+          {this.state.title1}
           <img src={logo} alt='ETA Chapter'/>
-          ETA Chapter
+          {this.state.title2}
         </NavbarBrand>
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav navbar>
