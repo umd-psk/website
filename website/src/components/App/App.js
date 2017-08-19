@@ -16,7 +16,7 @@ export default class App extends React.Component {
       <div>
         <Navbar fixed={this.props.HomePage} />
         {this.props.children}
-        <Footer />
+        {(!this.props.HomePage) ? <Footer /> : ''}
       </div>
     );
   }
