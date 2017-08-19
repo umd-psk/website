@@ -10,16 +10,18 @@ import BrothersPage from './routes/BrothersPage';
 import RushPage from './routes/RushPage';
 import AwardsPage from './routes/AwardsPage';
 import LoginPage from './routes/LoginPage';
+import NotFound from './routes/404';
 
 const routes = (
-  <div>
+  <Switch>
     <Route exact path="/" component={HomePage} />
     <Route path="/about" component={AboutPage} />
     <Route path="/brothers" component={BrothersPage} />
     <Route path="/rush" component={RushPage} />
     <Route path="/awards" component={AwardsPage} />
     <Route path="/login" component={LoginPage} />
-  </div>
+    <Route component={NotFound} />
+  </Switch>
 );
 
 ReactDOM.render(
