@@ -8,9 +8,9 @@ export default class Event extends React.Component {
     classes += (this.props.alt) ? 'alt' : '';
 
     return (
-      <Container fluid className={classes}>
+      <Container className={classes} data-aos='fade-right'>
         <Row>
-          <Col md="4" className="eventDate">
+          <Col md="5" xs="12" className="eventDate">
             <div className="dateWrapper">
               <h1> {this.props.date} </h1>
               <h2> {this.props.month} </h2>
@@ -18,7 +18,7 @@ export default class Event extends React.Component {
             </div>
           </Col>
 
-          <Col md="8" className="eventDetails">
+          <Col md="7" xs="12" className="eventDetails">
             <h2> {this.props.eventName} </h2>
             {this.props.location &&
                 <h4>

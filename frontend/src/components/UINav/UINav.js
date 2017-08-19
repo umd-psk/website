@@ -49,7 +49,7 @@ export default class UINav extends React.Component {
               <NavLink tag={Link} to='/awards'>Awards</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href='/'>Log In</NavLink>
+              <NavLink tag={Link} to='/login'>Log In</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

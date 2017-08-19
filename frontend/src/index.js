@@ -9,6 +9,7 @@ import AboutPage from './routes/AboutPage';
 import BrothersPage from './routes/BrothersPage';
 import RushPage from './routes/RushPage';
 import AwardsPage from './routes/AwardsPage';
+import LoginPage from './routes/LoginPage';
 
 const routes = (
   <div>
@@ -17,6 +18,7 @@ const routes = (
     <Route path="/brothers" component={BrothersPage} />
     <Route path="/rush" component={RushPage} />
     <Route path="/awards" component={AwardsPage} />
+    <Route path="/login" component={LoginPage} />
   </div>
 );
 
