@@ -43,10 +43,10 @@ export default class UINav extends React.Component {
           </Nav>
           <Nav className='ml-auto' navbar>
             <NavItem>
-              <NavLink tag={Link} to='/social'>Social</NavLink>
+              <NavLink tag={Link} to='/rush'>Rush</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href='/'>Awards</NavLink>
+              <NavLink tag={Link} to='/awards'>Awards</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href='/'>Log In</NavLink>

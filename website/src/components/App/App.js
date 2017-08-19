@@ -11,7 +11,7 @@ export default class App extends React.Component {
     AOS.init();
   }
 
-  render(props) {
+  render() {
     return (
       <div>
         <Navbar fixed={this.props.HomePage} />
