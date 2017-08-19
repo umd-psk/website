@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row } from 'reactstrap'
+import { Container } from 'reactstrap'
 import App from '../../components/App'
 
 const SocialPage = () => (
