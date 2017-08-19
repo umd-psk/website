@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../UINav'
+import Footer from '../UIFooter'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import 'font-awesome/css/font-awesome.css'
@@ -15,6 +16,7 @@ export default class App extends React.Component {
       <div>
         <Navbar fixed={this.props.HomePage} />
         {this.props.children}
+        <Footer />
       </div>
     );
   }

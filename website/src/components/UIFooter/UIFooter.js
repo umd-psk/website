@@ -16,7 +16,7 @@ const UIFooter = () => (
         <span class="fa fa-2x fa-facebook"></span>
       </a>
     </Container>
-    <hr style={{width: 80%}} />
+    <hr />
     <Row>
       <Col md="3">
         <p><b>2 Fraternity Row</b></p>
