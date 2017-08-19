@@ -9,19 +9,19 @@ export default class About extends React.Component {
     return (
       <App>
         <Container>
-          <h1 className="pageTitle" data-aos="fade-down"> About Us </h1>
-          <Row className="align-items-center">
-            <Col md='5' data-aos="fade-right">
-              <img src={logo} alt='' />
+          <h1 className='pageTitle' data-aos='fade-down'> About Us </h1>
+          <Row className='align-items-center'>
+            <Col md='5' sm='12' data-aos='fade-right'>
+              <img src={logo} alt='' className='letters' />
             </Col>
 
-            <Col md={{ size: 5, offset: 2 }} data-aos="fade-left">
+            <Col md={{ size: 6, offset: 1 }} xs='12' data-aos='fade-left'>
               <h1> Mission Statement </h1>
-              <p> <b className="red">Phi Sigma Kappa</b> is a lifelong brotherhood dedicated to the <em>betterment of the individual</em>, the university community, and our world, by giving its members opportunities to <b>develop leadership skills</b>, participate in service to others, achieve <b>academic excellence</b>, experience cultural diversity and practice <b>personal integrity</b>. </p>
+              <p> <b className='red'>Phi Sigma Kappa</b> is a lifelong brotherhood dedicated to the <em>betterment of the individual</em>, the university community, and our world, by giving its members opportunities to <b>develop leadership skills</b>, participate in service to others, achieve <b>academic excellence</b>, experience cultural diversity and practice <b>personal integrity</b>. </p>
             </Col>
           </Row>
         </Container>
-        <Container fluid className="creed" data-aos="fade-up">
+        <Container fluid className='creed' data-aos='fade-up'>
           <Row>
             <Col md={{ size: 8, offset: 2 }}>
               <h1> The Phi Sigma Kappa Creed </h1>
@@ -33,7 +33,7 @@ export default class About extends React.Component {
             </Col>
           </Row>
         </Container>
-        <Container className="principles" data-aos="fade-down">
+        <Container className='principles' data-aos='fade-down'>
           <Row>
             <Col md={{ size: 8, offset: 2 }}>
               <h1> Our Cardinal Principles </h1>
