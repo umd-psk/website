@@ -1,0 +1,11 @@
+.award {
+  background: #fff;
+  padding: 30px 0;
+  margin: 30px;
+  font-family: 'GreyCliffCF';
+}
+
+.award.alt {
+  background: #c90e3a;
+  color: #fff;
+}
