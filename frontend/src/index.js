@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap-css';
 
@@ -10,7 +10,7 @@ import BrothersPage from './routes/BrothersPage';
 import RushPage from './routes/RushPage';
 import AwardsPage from './routes/AwardsPage';
 import LoginPage from './routes/LoginPage';
-import NotFound from './routes/404';
+import NotFound from './routes/NotFound';
 
 const routes = (
   <Switch>
