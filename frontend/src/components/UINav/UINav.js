@@ -37,11 +37,11 @@ export default class UINav extends React.PureComponent {
   }
 
   componentDidMount() {
-    window.addEventListener("resize", this.updateDimensions.bind(this, true));
+    window.addEventListener("resize", this.updateDimensions.bind(this, false));
   }
 
   componentWillUnmount() {
-    window.removeEventListener("resize", this.updateDimensions.bind(this, true));
+    window.removeEventListener("resize", this.updateDimensions.bind(this, false));
   }
 
   render() {
