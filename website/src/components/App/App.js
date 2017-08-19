@@ -5,9 +5,7 @@ import 'aos/dist/aos.css';
 import './App.css'
 
 export default class App extends React.Component {
-  constructor() {
-    super();
-
+  componentWillMount() {
     AOS.init();
   }
 
