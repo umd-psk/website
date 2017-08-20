@@ -8,7 +8,7 @@ export default class Brother extends React.Component {
     let src = 'blank.png'
     let notFound = false;
     try {
-      src = brotherFolder('./' + this.props._name + '.jpg', true);
+      src = brotherFolder('./' + this.props.brotherName + '.jpg', true);
     } catch(e) {
       src = brotherFolder('./blank.png', true);
       notFound = true;
@@ -19,7 +19,7 @@ export default class Brother extends React.Component {
         <div className={(notFound) ? 'crop blank' : 'crop'}>
           <img src={src} alt='' />
         </div>
-        <h3>{this.props._name}</h3>
+        <h3>{this.props.brotherName}</h3>
         <h5>{this.props.chair}</h5>
       </div>
     );
