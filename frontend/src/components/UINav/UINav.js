@@ -2,6 +2,8 @@ import React from 'react'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom'
 import logo from './red-logo.svg'
+import wPhiSig from './whitePhiSig.svg'
+import rPhiSig from './redPhiSig.svg'
 import './UINav.css'
 
 export default class UINav extends React.PureComponent {
@@ -12,7 +14,8 @@ export default class UINav extends React.PureComponent {
     this.state = {
       isOpen: false,
       title1: "Phi Sig UMD",
-      title2: "ETA Chapter"
+      title2: "ETA Chapter",
+      phiSigSrc: rPhiSig
     };
   }
 
@@ -20,6 +23,11 @@ export default class UINav extends React.PureComponent {
     this.setState({
       isOpen: !this.state.isOpen
     });
+  }
+
+  phiSigHover() {
+    let updatedSrc = (this.state.phiSigSrc == wPhiSig) ? rPhiSig : wPhiSig;
+    this.setState({ phiSigSrc: updatedSrc });
   }
 
   updateDimensions(first) {
@@ -74,7 +82,13 @@ export default class UINav extends React.PureComponent {
                 <NavLink tag={Link} to='/awards'>Awards</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to='/login'>Log In</NavLink>
+                <NavLink
+                  href='https://myphisig.phisigmakappa.org/'
+                  target='_blank'
+                  onMouseEnter={this.phiSigHover.bind(this)}
+                  onMouseLeave={this.phiSigHover.bind(this)}>
+                    <img src={this.state.phiSigSrc} alt='My Phi Sig' />
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
