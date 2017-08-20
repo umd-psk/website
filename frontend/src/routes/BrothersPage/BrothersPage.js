@@ -55,7 +55,7 @@ export default class BrothersPage extends React.Component {
       <App>
         <Container fluid>
           <h1 className='pageTitle' data-aos='fade-down'> Brothers </h1>
-          <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'> Spring 2017 </h2>
+          <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'> Fall 2017 </h2>
           <Row className='brothers text-center justify-content-start'>
             {this.state.exec}
             {this.state.brothers}
