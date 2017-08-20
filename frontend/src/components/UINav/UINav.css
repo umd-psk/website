@@ -8,8 +8,18 @@
   }
 }
 
+@media (max-width: 768px) {
+  .nav-link {
+    padding-left: 10px !important;
+  }
+}
+
 .navbar-brand.abs img {
   padding: 0 15px;
+}
+
+.nav-item img {
+  height: 28px;
 }
 
 .navbar {
@@ -31,4 +41,9 @@
   background-color: #c90e3a;
 
   transition: all 200ms ease-in;
+}
+
+.nav-link.active {
+  color: #fff !important;
+  background-color: #c90e3a;
 }

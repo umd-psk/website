@@ -1,6 +1,6 @@
 import React from 'react'
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import { Link } from 'react-router-dom'
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink as BNavLink } from 'reactstrap';
+import { NavLink } from 'react-router-dom'
 import logo from './red-logo.svg'
 import wPhiSig from './whitePhiSig.svg'
 import rPhiSig from './redPhiSig.svg'
@@ -65,30 +65,32 @@ export default class UINav extends React.PureComponent {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink tag={Link} to='/'>Home</NavLink>
+                <BNavLink exact tag={NavLink} activeClassName="active" to='/'>Home</BNavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to='/about'>About</NavLink>
+                <BNavLink tag={NavLink} activeClassName="active" to='/about'>About</BNavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to='/brothers'>Brothers</NavLink>
+                <BNavLink tag={NavLink} activeClassName="active" to='/brothers'>Brothers</BNavLink>
               </NavItem>
             </Nav>
             <Nav className='ml-auto' navbar>
               <NavItem>
-                <NavLink tag={Link} to='/rush'>Rush</NavLink>
+                <BNavLink tag={NavLink} activeClassName="active" to='/rush'>Rush</BNavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to='/awards'>Awards</NavLink>
+                <BNavLink tag={NavLink} activeClassName="active" to='/awards'>Awards</BNavLink>
               </NavItem>
               <NavItem>
-                <NavLink
+                <BNavLink
                   href='https://myphisig.phisigmakappa.org/'
                   target='_blank'
                   onMouseEnter={this.phiSigHover.bind(this)}
-                  onMouseLeave={this.phiSigHover.bind(this)}>
+                  onMouseLeave={this.phiSigHover.bind(this)}
+                  onTouchStart={this.phiSigHover.bind(this)}
+                  onTouchEnd={this.phiSigHover.bind(this)}>
                     <img src={this.state.phiSigSrc} alt='My Phi Sig' />
-                </NavLink>
+                </BNavLink>
               </NavItem>
             </Nav>
           </Collapse>
