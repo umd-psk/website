@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import App from '../../components/App'
 import Brother from '../../components/Brother'
+import './BrothersPage.css'
 
 var allBrothers = {
   "Santiago Noguera": "",
@@ -56,7 +57,7 @@ var allBrothers = {
 
 const brothers = Object.keys(allBrothers).map(function(name, id) {
   return (
-    <Col md='4' key={id}>
+    <Col md='4' sm='6' xs='12' key={id}>
       <Brother chair={allBrothers[name]} _name={name} />
     </Col>
   );
@@ -66,11 +67,13 @@ export default class BrothersPage extends React.Component {
   render() {
     return (
       <App>
+        <Container fluid>
         <h1 className='pageTitle' data-aos='fade-down'> Brothers </h1>
         <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'> Spring 2017 </h2>
-        <Row className='text-center'>
+        <Row className='brothers text-center justify-content-start'>
           {brothers}
         </Row>
+        </Container>
       </App>
     );
   }
