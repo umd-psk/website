@@ -24,12 +24,6 @@
   font-size: 3.5em;
 }
 
-.dateWrapper {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 .eventDate h2 {
   text-transform: uppercase;
   font-weight: bold;

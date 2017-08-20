@@ -56,7 +56,7 @@ var allBrothers = {
 
 const brothers = Object.keys(allBrothers).map(function(name, id) {
   return (
-    <Col md="4" key={id}>
+    <Col md='4' key={id}>
       <Brother chair={allBrothers[name]} _name={name} />
     </Col>
   );
@@ -66,13 +66,11 @@ export default class BrothersPage extends React.Component {
   render() {
     return (
       <App>
-        <Container>
-          <h1 className='pageTitle' data-aos='fade-down'> Brothers </h1>
-          <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'> Spring 2017 </h2>
-          <Row className='text-center'>
-            {brothers}
-          </Row>
-        </Container>
+        <h1 className='pageTitle' data-aos='fade-down'> Brothers </h1>
+        <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'> Spring 2017 </h2>
+        <Row className='text-center'>
+          {brothers}
+        </Row>
       </App>
     );
   }
