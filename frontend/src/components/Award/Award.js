@@ -8,7 +8,7 @@ export default class Award extends React.Component {
     classes += (this.props.alt) ? 'alt' : '';
 
     return (
-      <Col md="4" className="awardCol" data-aos='fade'>
+      <Col xs={'12'} sm={'6'} md={'4'} className={'awardCol'} data-aos='fade'>
         <div className={classes}>
           <h1> {this.props.year} </h1>
           <h2> {this.props.awardName} </h2>
