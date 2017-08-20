@@ -26,7 +26,7 @@ export default class UINav extends React.PureComponent {
   }
 
   phiSigHover() {
-    let updatedSrc = (this.state.phiSigSrc == wPhiSig) ? rPhiSig : wPhiSig;
+    let updatedSrc = (this.state.phiSigSrc === wPhiSig) ? rPhiSig : wPhiSig;
     this.setState({ phiSigSrc: updatedSrc });
   }
 
