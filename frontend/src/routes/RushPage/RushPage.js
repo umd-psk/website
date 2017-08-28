@@ -15,7 +15,7 @@ const RushPage = () => (
       <Event date={'7'} month={'Sep'} time={'6:00 PM - 8:00 PM'} eventName={'Chapter Open House'} location={'2 Fraternity Row'}>
         <p> See our house on the row and meet our brothers. Chipotle will be catered. </p>
       </Event>
-      <Event date={'9'} month={'Sep'} time={'12:00 PM - 4:00 PM'} eventName={'Burgers and Ballin\''} location={'2 Fraternity Row'} alt>
+      <Event date={'8'} month={'Sep'} time={'12:00 PM - 4:00 PM'} eventName={'Burgers and Ballin\''} location={'2 Fraternity Row'} alt>
         <p> Come out and ball out with our brothers in the court next to Phi Sigma Kappa's house. We will be grilling burgers as well. </p>
       </Event>
       <Event date={'11'} month={'Sep'} time={'6:00 PM - 9:00 PM'} eventName={'Fifa Tournament'} location={'Invite Only'} />
