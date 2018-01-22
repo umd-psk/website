@@ -8,18 +8,21 @@ const RushPage = () => (
   <App>
     <Container fluid>
       <h1 className='pageTitle' data-aos='fade-down'> Rush Events </h1>
-      <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'> Fall 2017 </h2>
+      <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'> Spring 2018 </h2>
 
-      <Event date={'26'} month={'Aug'} eventName={'Move in Day'} />
-      <Event date={'6'} month={'Sep'} eventName={'Meet the Greeks'} location={'Stamp Ball Room'} alt />
-      <Event date={'7'} month={'Sep'} time={'6:00 PM - 8:00 PM'} eventName={'Chapter Open House'} location={'2 Fraternity Row'}>
-        <p> See our house on the row and meet our brothers. Chipotle will be catered. </p>
+      <Event date={'20'} month={'Jan'} eventName={'Move in Day'} />
+      <Event date={'29'} month={'Jan'} eventName={'Meet the Greeks'} location={'Stamp Student Union'} alt>
+        <p> Meet some of our brothers and get an idea of the events we have planned for the week. </p>
       </Event>
-      <Event date={'8'} month={'Sep'} time={'2:00 PM - 6:00 PM'} eventName={'Burgers and Ballin\''} location={'2 Fraternity Row'} alt>
-        <p> Come out and ball out with our brothers in the court next to Phi Sigma Kappa's house. We will be grilling burgers as well. </p>
+      <Event date={'30'} month={'Jan'} eventName={'Burgers with the Brothers'} location={'7507 Princeton Ave'}>
+        <p> Meet more of our brothers and enjoy some burgers. </p>
       </Event>
-      <Event date={'11'} month={'Sep'} time={'6:00 PM - 9:00 PM'} eventName={'Fifa Tournament'} location={'Invite Only'} />
-      <Event date={'13'} month={'Sep'} time={'6:00 PM - 8:00 PM'} eventName={'Cornerstone Wing Night'} location={'Invite Only'} alt />
+      <Event date={'31'} month={'Jan'} eventName={'Open House'} location={'2 Fraternity Row'} alt>
+        <p> See our house on the row and eat some free pizza. </p>
+      </Event>
+      <Event date={'2'} month={'Feb'} eventName={'Interviews'} location={'Invite Only'} alt />
+      <Event date={'4'} month={'Feb'} eventName={'Super Bowl Watch Party'} location={'Invite Only'} alt />
+      <Event date={'5'} month={'Feb'} eventName={'Poker Night'} location={'Invite Only'} alt />
     </Container>
   </App>
 );
