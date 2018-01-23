@@ -14,8 +14,8 @@ const RushPage = () => (
       <Event date={'29'} month={'Jan'} eventName={'Meet the Greeks'} location={'Stamp Student Union'} alt>
         <p> Meet some of our brothers and get an idea of the events we have planned for the week. </p>
       </Event>
-      <Event date={'30'} month={'Jan'} eventName={'Burgers with the Brothers'} location={'7507 Princeton Ave'}>
-        <p> Meet more of our brothers and enjoy some burgers. </p>
+      <Event date={'30'} month={'Jan'} eventName={'BBQ with Brothers'} location={'7507 Princeton Ave'}>
+        <p> Meet more of our brothers and enjoy some BBQ. </p>
       </Event>
       <Event date={'31'} month={'Jan'} eventName={'Open House'} location={'2 Fraternity Row'} alt>
         <p> See our house on the row and eat some free pizza. </p>
