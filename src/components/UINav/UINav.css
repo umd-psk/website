@@ -1,0 +1,49 @@
+@media (min-width: 768px) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    padding-left: 10px !important;
+  }
+}
+
+.navbar-brand.abs img {
+  padding: 0 15px;
+}
+
+.nav-item img {
+  height: 28px;
+}
+
+.navbar {
+  font-family: 'GreycliffCF';
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.85rem 1rem !important;
+  border-bottom: #c90e3a 5px solid;
+  line-height: 2;
+}
+
+.navbar-collapse {
+  z-index: 1;
+}
+
+.nav-item a:hover {
+  color: #fff !important;
+  background-color: #c90e3a;
+
+  transition: all 200ms ease-in;
+}
+
+.nav-link.active {
+  color: #fff !important;
+  background-color: #c90e3a;
+}
