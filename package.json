@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jwcorle.github.io/PSK_Website",
+  "____homepage": "https://jwcorle.github.io/PSK_Website",
   "dependencies": {
     "aos": "^2.2.0",
     "bootstrap": "^4.0.0-beta",
