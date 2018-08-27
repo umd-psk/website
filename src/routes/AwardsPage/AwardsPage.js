@@ -11,6 +11,7 @@ export default class AwardsPage extends React.Component {
         <Container fluid>
           <h1 className='pageTitle' data-aos='fade-down'> Awards </h1>
           <Row className='awards'>
+            <Award year={'2018'} awardName={'Best Alumni Award'} alt />
             <Award year={'2017'} awardName={'Technology Award'} />
             <Award year={'2017'} awardName={'Best Alumni Award'} />
             <Award year={'2016'} awardName={'Chapter of the Year'} alt />
