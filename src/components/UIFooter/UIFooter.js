@@ -37,9 +37,11 @@ const UIFooter = () => (
     <Container fluid className="footerFoot">
       <a href="https://phisigmakappa.org/"><img src={logo} alt='Nationals' /></a>
       <h6> Website made by <br />
-        <b className="text-uppercase">James Corley</b>
+        <a href="https://github.com/jwcorle" target="_blank" rel="noopener noreferrer">
+          <b className="text-uppercase">James Corley</b>
+        </a>
       </h6>
-      <h5> © 2017 <b>PHI SIGMA KAPPA</b></h5>
+      <h5> © 2019 <b>PHI SIGMA KAPPA</b></h5>
     </Container>
   </Container>
 );
