@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f451906.chunk.css",
-    "main.js": "/static/js/main.bdc65aa2.chunk.js",
-    "main.js.map": "/static/js/main.bdc65aa2.chunk.js.map",
+    "main.css": "/static/css/main.619ead01.chunk.css",
+    "main.js": "/static/js/main.f13f4c8c.chunk.js",
+    "main.js.map": "/static/js/main.f13f4c8c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.48354b3d.js",
     "runtime-main.js.map": "/static/js/runtime-main.48354b3d.js.map",
     "static/css/2.b9e6d83b.chunk.css": "/static/css/2.b9e6d83b.chunk.css",
     "static/js/2.67381465.chunk.js": "/static/js/2.67381465.chunk.js",
     "static/js/2.67381465.chunk.js.map": "/static/js/2.67381465.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fe848f2d434ccf7b8052b13051c285f5.js": "/precache-manifest.fe848f2d434ccf7b8052b13051c285f5.js",
+    "precache-manifest.7f819f36643020585936e1fb0ad423ca.js": "/precache-manifest.7f819f36643020585936e1fb0ad423ca.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.b9e6d83b.chunk.css.map": "/static/css/2.b9e6d83b.chunk.css.map",
-    "static/css/main.4f451906.chunk.css.map": "/static/css/main.4f451906.chunk.css.map",
+    "static/css/main.619ead01.chunk.css.map": "/static/css/main.619ead01.chunk.css.map",
     "static/media/Alec Hayes.jpg": "/static/media/Alec Hayes.f187616d.jpg",
     "static/media/Ayanna Tucker.jpg": "/static/media/Ayanna Tucker.9e414305.jpg",
     "static/media/Benjamin Beinish.jpg": "/static/media/Benjamin Beinish.d0aa5916.jpg",
@@ -36,7 +36,6 @@
     "static/media/Jay Gobeil.jpg": "/static/media/Jay Gobeil.c959641a.jpg",
     "static/media/Joseph Cipolla.jpg": "/static/media/Joseph Cipolla.206838ac.jpg",
     "static/media/Joseph Hathway.jpg": "/static/media/Joseph Hathway.eefaf6d1.jpg",
-    "static/media/Joshua Schnitzer.jpg": "/static/media/Joshua Schnitzer.845db997.jpg",
     "static/media/Justin Frankle.jpg": "/static/media/Justin Frankle.e181613f.jpg",
     "static/media/Kraz Greinetz.jpg": "/static/media/Kraz Greinetz.b1951650.jpg",
     "static/media/Kyle Chojnacki.jpg": "/static/media/Kyle Chojnacki.25ef717a.jpg",
@@ -63,7 +62,6 @@
     "static/media/Sam Schoberg.jpg": "/static/media/Sam Schoberg.2f628ff4.jpg",
     "static/media/Sebastian Lecha.jpg": "/static/media/Sebastian Lecha.9b5f7c8a.jpg",
     "static/media/Thomas Deliso.jpg": "/static/media/Thomas Deliso.20e4cd57.jpg",
-    "static/media/Tony Shu.jpg": "/static/media/Tony Shu.0c66d39e.jpg",
     "static/media/Tyler Weiss.jpg": "/static/media/Tyler Weiss.c84cd8af.jpg",
     "static/media/Zackery Miller.jpg": "/static/media/Zackery Miller.a75b0944.jpg",
     "static/media/HomePage.css": "/static/media/bg.c8cb5cd3.png",
@@ -80,7 +78,7 @@
     "static/js/runtime-main.48354b3d.js",
     "static/css/2.b9e6d83b.chunk.css",
     "static/js/2.67381465.chunk.js",
-    "static/css/main.4f451906.chunk.css",
-    "static/js/main.bdc65aa2.chunk.js"
+    "static/css/main.619ead01.chunk.css",
+    "static/js/main.f13f4c8c.chunk.js"
   ]
 }
