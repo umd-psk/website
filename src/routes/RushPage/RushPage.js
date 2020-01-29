@@ -16,26 +16,36 @@ const RushPage = () => (
       <h1 className='pageTitle' data-aos='fade-down'> Rush Events </h1>
       <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>{currentSemester()}</h2>
 
-      <Event date={'29'} month={'Jan'} eventName={'Fifa Tournament'} alt>
-        <p><b> 9pm to 11pm </b></p>
-        <p> Come get worked in FIFA. </p>
+      <Event date={'2'} month={'Feb'} eventName={'Super Bowl Party'} location={'2 Fraternity Row'}>
+        <p><b> 6:00 PM </b></p>
+        // <p> Event Description </p>
       </Event>
-      <Event date={'2'} month={'Sept'} eventName={'Meet the IFC (Mandatory)'} location={'Jimenez Hall'}>
-        <p><b> 12:30pm to 4pm </b></p>
-        <p> Meet more of our brothers and enjoy some BBQ. </p>
+
+      <Event date={'3'} month={'Feb'} eventName={'Meet the IFC (Mandatory)'} location={'Adele H. Stamp Ballroom'} alt>
+        <p><b> 5:00 PM - 7:00 PM </b></p>
+        // <p> Event Description </p>
       </Event>
-      <Event date={'4'} month={'Sept'} eventName={'Burgers and Ball'} location={'2 Fraternity Row'} alt>
-        <p><b> 5pm to 7pm </b></p>
-        <p> Come out and ball with some brothers and eat some burgers. </p>
+
+      <Event date={'4'} month={'Feb'} eventName={'Hoagies and Stogies'} location={'7507 Princeton Ave'}>
+        <p><b> 5:00 PM </b></p>
+        // <p> Event Description </p>
       </Event>
-      <Event date={'5'} month={'Sept'} eventName={'House Tour'} location={'2 Fraternity Row'}>
-        <p><b> 6pm to 8pm </b></p>
-        <p> See our house on the row and eat some free pizza. </p>
+
+      <Event date={'5'} month={'Feb'} eventName={'Open House'} location={'2 Fraternity Row'}>
+        <p><b> 7:00 PM - 8:00 PM</b></p>
+        // <p> Event Description </p>
       </Event>
-      <Event date={'8'} month={'Sept'} eventName={'Interviews'} location={'Invite Only'} alt />
-      <Event date={'4'} month={'Sept'} eventName={'Flag Football'} location={'Invite Only'} />
-      <Event date={'11'} month={'Sept'} eventName={'Crab Feast'} location={'Invite Only'} alt />
-      <Event date={'14'} month={'Sept'} eventName={'Bid Acceptance Deadline'} location={''} />
+
+      <Event date={'8'} month={'Feb'} eventName={'Interviews'} location={'Invite Only'}>
+        // <p><b> 12:00 AM </b></p>
+        // <p> Event Description </p>
+      </Event>
+
+      <Event date={'11'} month={'Feb'} eventName={'Dodgeball Tournament'} location={'Invite Only'}>
+        // <p><b> 12:00 AM </b></p>
+        // <p> Event Description </p>
+      </Event>
+
     </Container>
   </App>
 );
