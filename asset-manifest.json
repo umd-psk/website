@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c337589.chunk.css",
-    "main.js": "/static/js/main.02522387.chunk.js",
-    "main.js.map": "/static/js/main.02522387.chunk.js.map",
+    "main.css": "/static/css/main.c0f82db2.chunk.css",
+    "main.js": "/static/js/main.6aa15075.chunk.js",
+    "main.js.map": "/static/js/main.6aa15075.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.48354b3d.js",
     "runtime-main.js.map": "/static/js/runtime-main.48354b3d.js.map",
     "static/css/2.fe16717b.chunk.css": "/static/css/2.fe16717b.chunk.css",
     "static/js/2.da2c4bfd.chunk.js": "/static/js/2.da2c4bfd.chunk.js",
     "static/js/2.da2c4bfd.chunk.js.map": "/static/js/2.da2c4bfd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fc19e63e740f46d92211101c23443912.js": "/precache-manifest.fc19e63e740f46d92211101c23443912.js",
+    "precache-manifest.417a9fd2da1814d1fd5c831b9add6948.js": "/precache-manifest.417a9fd2da1814d1fd5c831b9add6948.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fe16717b.chunk.css.map": "/static/css/2.fe16717b.chunk.css.map",
-    "static/css/main.8c337589.chunk.css.map": "/static/css/main.8c337589.chunk.css.map",
+    "static/css/main.c0f82db2.chunk.css.map": "/static/css/main.c0f82db2.chunk.css.map",
     "static/media/AJ Shannon.jpg": "/static/media/AJ Shannon.b6c4e6a9.jpg",
     "static/media/Adit Gupta.jpg": "/static/media/Adit Gupta.ae41d506.jpg",
     "static/media/Alec Hayes.jpg": "/static/media/Alec Hayes.70ed6145.jpg",
@@ -32,7 +32,7 @@
     "static/media/Duncan Woodward.jpg": "/static/media/Duncan Woodward.9691aa15.jpg",
     "static/media/Dylan Fox.jpg": "/static/media/Dylan Fox.4d18fbec.jpg",
     "static/media/Dylan Redfield.jpg": "/static/media/Dylan Redfield.568d0827.jpg",
-    "static/media/ETA-logo.svg": "/static/media/ETA-logo.c13c5d50.svg",
+    "static/media/ETA-logo.svg": "/static/media/ETA-logo.fb94f925.svg",
     "static/media/Ethan Winters.jpg": "/static/media/Ethan Winters.d3c8a5e9.jpg",
     "static/media/Evan Kowalk.jpg": "/static/media/Evan Kowalk.6eaf2bd4.jpg",
     "static/media/Fabio Tocaj.jpg": "/static/media/Fabio Tocaj.e2752fbd.jpg",
@@ -74,17 +74,17 @@
     "static/media/blank.png": "/static/media/blank.8cb04c92.png",
     "static/media/font-awesome.css": "/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/App.css": "/static/media/greycliff-cf-regular.e6663cae.ttf",
-    "static/media/logo.svg": "/static/media/logo.9163381d.svg",
+    "static/media/logo.svg": "/static/media/logo.09c8f882.svg",
     "static/media/red-logo.svg": "/static/media/red-logo.84d7794e.svg",
-    "static/media/redPhiSig.svg": "/static/media/redPhiSig.c17e0ecb.svg",
+    "static/media/redPhiSig.svg": "/static/media/redPhiSig.d7dba5bd.svg",
     "static/media/white-logo.svg": "/static/media/white-logo.8e77bd7f.svg",
-    "static/media/whitePhiSig.svg": "/static/media/whitePhiSig.923676d0.svg"
+    "static/media/whitePhiSig.svg": "/static/media/whitePhiSig.3f2c54d4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.48354b3d.js",
     "static/css/2.fe16717b.chunk.css",
     "static/js/2.da2c4bfd.chunk.js",
-    "static/css/main.8c337589.chunk.css",
-    "static/js/main.02522387.chunk.js"
+    "static/css/main.c0f82db2.chunk.css",
+    "static/js/main.6aa15075.chunk.js"
   ]
 }
