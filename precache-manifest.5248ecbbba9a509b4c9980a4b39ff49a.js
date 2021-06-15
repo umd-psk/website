@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a5d780438c8c3a053b48b699a22a1565",
+    "revision": "9783fdaace2450ff35b4cbc28513ba5d",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.79726bcf.chunk.css"
   },
   {
-    "revision": "30288028d48a61aefeb8",
+    "revision": "bbf365865cb5b08562e7",
     "url": "/static/css/main.9882b531.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a4012071.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30288028d48a61aefeb8",
-    "url": "/static/js/main.808b2c7b.chunk.js"
+    "revision": "bbf365865cb5b08562e7",
+    "url": "/static/js/main.f6a7042e.chunk.js"
   },
   {
     "revision": "ba126735810163618457",
@@ -412,12 +412,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Kevin Sovak.46d2bb80.jpg"
   },
   {
-    "revision": "4922642b24e0b7f2e8a8881399693a4a",
-    "url": "/static/media/Konstantinos Nakas.4922642b.jpg"
+    "revision": "892fca34a88bfe8f199551a7aaa70c5f",
+    "url": "/static/media/Kostas Nakas-2.892fca34.jpg"
   },
   {
-    "revision": "892fca34a88bfe8f199551a7aaa70c5f",
-    "url": "/static/media/Kostas Nakas.892fca34.jpg"
+    "revision": "4922642b24e0b7f2e8a8881399693a4a",
+    "url": "/static/media/Kostas Nakas.4922642b.jpg"
   },
   {
     "revision": "2f5928e8ff2762b3fedeb1c798d0ac72",
