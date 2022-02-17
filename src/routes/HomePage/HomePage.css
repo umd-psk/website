@@ -17,7 +17,7 @@
 
 .navbar.fixed-bottom {
   border-bottom: 0;
-  border-top: #c90e3a 5px solid;
+/*  border-top: #c90e3a 5px solid;*/
 }
 
 .titlePage {
@@ -62,3 +62,4 @@
     font-weight: bold;
   }
 }
+

@@ -41,7 +41,7 @@ const UIFooter = () => (
           <b className="text-uppercase">James Corley</b>
         </a>
       </h6>
-      <h5> © 2019 <b>PHI SIGMA KAPPA</b></h5>
+      <h5> © 2021 <b>PHI SIGMA KAPPA</b></h5>
     </Container>
   </Container>
 );

@@ -43,6 +43,7 @@ export default class About extends React.Component {
               <p>Wisdom comes with learning. Complementing the mission of higher education, we seek to help our members to combine formal and informal learning experience; to more fully appreciate the importance of both theoretical and practical knowledge; and, by broadening their understanding of human relationships, to produce men of wisdom who will be better prepared to make positive contributions to society and all mankind.</p>
               <h3><b>To Develop Character</b> </h3>
               <p>Honor is the basis of fraternal relationships. We resolve to instill in each member a devotion to those values which will guide him to ends that are noble and right, so that in all that he represents and in all that he does, he shall be known as a man of honor who inspires others by his example and thus wins admiration and respect for himself and for Phi Sigma Kappa.</p>
+                <p><a target="_blank" href="https://docs.google.com/document/d/1v8kjZTnVDGNL49_BeKyTQXWiLjrCHRgoG8QhQGtPOqo/edit?usp=sharing"> Read our policy regarding sexual assault</a>.</p>
             </Col>
           </Row>
         </Container>

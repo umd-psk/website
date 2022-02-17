@@ -1,0 +1,16 @@
+.video {
+    display: block;
+    margin: auto;
+    width: 560px;
+}
+
+.secondaryText {
+    text-align: center;
+    padding-bottom: 25px;
+    width: 75%;
+    margin: auto;
+}
+
+.link {
+    color: #c90e3a;
+}

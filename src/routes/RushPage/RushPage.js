@@ -7,44 +7,58 @@ import './RushPage.css'
 const currentSemester = _ => {
   let now = new Date();
 
-  return `${(now.getMonth() > 8 ? "Fall" : "Spring")} ${now.getFullYear()}`
+  return `${(now.getMonth() > 7 ? "Fall" : "Spring")} ${now.getFullYear()}`
 }
 
 const RushPage = () => (
   <App>
     <Container fluid>
-      <h1 className='pageTitle' data-aos='fade-down'> Rush Events </h1>
+      <h1 className='pageTitle' data-aos='fade-down'> Rush </h1>
       <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>{currentSemester()}</h2>
 
-      <Event date={'2'} month={'Feb'} eventName={'Super Bowl Party'} location={'2 Fraternity Row'}>
-        <p><b> 6:00 PM </b></p>
-        // <p> Event Description </p>
+        <h4 className='secondaryText' data-aos='fade-down'><b>Rush will begin soon. For now, check out our chapter house tour.</b></h4>
+
+    {/* <div className='video' data-aos='fade-down'>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7hoD-FxwgfFzD9xdmRmpDCPurMWrEISIOn-inPXoFZUB6Ng/viewform?embedded=true" width="640" height="640" max-width="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div> */}
+<p>.</p>
+        {/* <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>Chapter House Tour</h2> */}
+
+        <div className='video' data-aos='fade-down'>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HsIWBLwIQU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    <p>.</p>
+        {/* <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>Schedule</h2>
+
+      <Event date={'8'} month={'Feb'} eventName={'Meet the Greeks'} location={'Zoom'}>
+        <p><b> Time TBD </b></p>
+        <p> Complete above Google Form for the Zoom Link </p>
       </Event>
 
-      <Event date={'3'} month={'Feb'} eventName={'Meet the IFC (Mandatory)'} location={'Adele H. Stamp Ballroom'} alt>
-        <p><b> 5:00 PM - 7:00 PM </b></p>
-        // <p> Event Description </p>
+        <Event date={'8'} month={'Feb'} eventName={'Meet the Brothers (Of PSK)'} location={'Zoom'} alt>
+        <p><b> Time TBD </b></p>
+        <p> Complete above Google Form for the Zoom Link </p>
       </Event>
 
-      <Event date={'4'} month={'Feb'} eventName={'Hoagies and Stogies'} location={'7507 Princeton Ave'}>
-        <p><b> 5:00 PM </b></p>
-        // <p> Event Description </p>
+        <Event date={'9'} month={'Feb'} eventName={'Brother Speed Dating'} location={'Zoom'}>
+        <p><b> Time TBD </b></p>
+        <p> Complete above Google Form for the Zoom Link </p>
       </Event>
 
-      <Event date={'5'} month={'Feb'} eventName={'Open House'} location={'2 Fraternity Row'}>
-        <p><b> 7:00 PM - 8:00 PM</b></p>
-        // <p> Event Description </p>
+        <Event date={'10'} month={'Feb'} eventName={'Games Night'} location={'Zoom'} alt>
+        <p><b> Time TBD </b></p>
+        <p> Complete above Google Form for the Zoom Link </p>
       </Event>
 
-      <Event date={'8'} month={'Feb'} eventName={'Interviews'} location={'Invite Only'}>
-        // <p><b> 12:00 AM </b></p>
-        // <p> Event Description </p>
+        <Event date={'11'} month={'Feb'} eventName={'Interviews (Invite Only)'} location={'Zoom'}>
+        <p><b> Time TBD </b></p>
+        <p> Complete above Google Form for the Zoom Link </p>
       </Event>
 
-      <Event date={'11'} month={'Feb'} eventName={'Dodgeball Tournament'} location={'Invite Only'}>
-        // <p><b> 12:00 AM </b></p>
-        // <p> Event Description </p>
-      </Event>
+        <Event date={'13'} month={'Feb'} eventName={'Brothers AMA'} location={'Zoom'} alt>
+        <p><b> Time TBD </b></p>
+        <p> Complete above Google Form for the Zoom Link </p>
+      </Event> */}
 
     </Container>
   </App>
