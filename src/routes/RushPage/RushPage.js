@@ -1,4 +1,5 @@
 import React from 'react'
+//import { Instagram } from 'reactjs-social-embed'
 import { Container } from 'reactstrap'
 import App from '../../components/App'
 import Event from '../../components/Event'
@@ -28,7 +29,15 @@ const RushPage = () => (
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HsIWBLwIQU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     <p>.</p>
-        {/* <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>Schedule</h2>
+
+    <h4 className='secondaryText' data-aos='fade-down'><b>Check out our Instagram @psk_umd.</b></h4>
+    {/*<div className='insta-embed' data-aos='fade-down'>
+    <iframe width="560" height="500" src="https://www.instagram.com/psk_umd/?utm_source=ig_embed&amp;utm_campaign=loading" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	</div>
+    
+    
+
+         <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>Schedule</h2>
 
       <Event date={'8'} month={'Feb'} eventName={'Meet the Greeks'} location={'Zoom'}>
         <p><b> Time TBD </b></p>
@@ -57,8 +66,8 @@ const RushPage = () => (
 
         <Event date={'13'} month={'Feb'} eventName={'Brothers AMA'} location={'Zoom'} alt>
         <p><b> Time TBD </b></p>
-        <p> Complete above Google Form for the Zoom Link </p>
-      </Event> */}
+  <p> Complete above Google Form for the Zoom Link </p>
+  </Event> */}
 
     </Container>
   </App>
