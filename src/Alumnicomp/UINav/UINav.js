@@ -9,7 +9,6 @@ import './UINav.css'
 export default class UINav extends React.PureComponent {
   constructor(props) {
     super(props);
-
     this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false,
@@ -65,13 +64,13 @@ export default class UINav extends React.PureComponent {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <BNavLink exact tag={NavLink} activeClassName="active" to='/'>Home</BNavLink>
+                <BNavLink exact tag={NavLink} activeClassName="active" to='/alumni/home'>Home</BNavLink>
               </NavItem>
               <NavItem>
                 <BNavLink tag={NavLink} activeClassName="active" to='/about'>About</BNavLink>
               </NavItem>
               <NavItem>
-                <BNavLink tag={NavLink} activeClassName="active" to='/brothers'>Brothers</BNavLink>
+                <BNavLink tag={NavLink} activeClassName="active" to='/brothers'>Exec Board</BNavLink>
               </NavItem>
             </Nav>
             <Nav className='ml-auto' navbar>
@@ -82,7 +81,7 @@ export default class UINav extends React.PureComponent {
                 <BNavLink tag={NavLink} activeClassName="active" to='/awards'>Awards</BNavLink>
               </NavItem>
               <NavItem>
-                <BNavLink tag={NavLink} activeClassName="active" to='/alumni/home'>Alumni</BNavLink>
+                <BNavLink tag={NavLink} activeClassName="active" to='/'>Active Chapter</BNavLink>
               </NavItem>
               <NavItem>
                 <BNavLink
