@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "____homepage": "https://umd-ps.github.io/website",
+  "____homepage": "https://umd-psk.github.io/website",
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^4.6.1",
