@@ -13,6 +13,11 @@ export default class HomePage extends React.Component {
             <h1 data-aos='fade-down' data-aos-delay='400'>Phi Sigma Kappa Alumni Association</h1>
           <h3 data-aos='fade-up' data-aos-delay='400'> Est. 2010 </h3>
           <h4 data-aos='fade-up' data-aos-delay='650'> University of Maryland </h4>
+          <br></br>
+         <br></br>
+         <h1 data-aos='fade-up' data-aos-delay='850'>Welcome Brothers of the Eta Chapter!</h1>
+              
+              
         </div>
       </App>
     )

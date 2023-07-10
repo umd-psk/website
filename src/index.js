@@ -10,6 +10,7 @@ import BrothersPage from './routes/BrothersPage';
 import RushPage from './routes/RushPage';
 import AwardsPage from './routes/AwardsPage';
 import AlumniHomePage from './routes/Alumni/HomePage';
+import AlumniAboutPage from './routes/Alumni/AboutPage';
 import NotFound from './routes/NotFound';
 
 const routes = (
@@ -20,6 +21,7 @@ const routes = (
     <Route path="/rush" component={RushPage} />
     <Route path="/awards" component={AwardsPage} />
     <Route path="/alumni/home" component={AlumniHomePage} />
+    <Route path="/alumni/about" component={AlumniAboutPage} />
     <Route component={NotFound} />
   </Switch>
 );
