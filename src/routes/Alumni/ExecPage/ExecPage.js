@@ -2,8 +2,8 @@ import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import App from '../../../Alumnicomp/App'
 import Brother from '../../../Alumnicomp/Alumn'
-import allBrothers from './brothers.json'
-import './BrothersPage.css'
+import allBrothers from './Exec.json'
+import './ExecPage.css'
 
 export default class BrothersPage extends React.Component {
   constructor() {
