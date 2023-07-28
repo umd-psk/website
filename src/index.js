@@ -10,6 +10,10 @@ import BrothersPage from './routes/BrothersPage';
 import RushPage from './routes/RushPage';
 import AwardsPage from './routes/AwardsPage';
 import NotFound from './routes/NotFound';
+{/*import AlumniHomePage from './routes/Alumni/HomePage';
+import AlumniAboutPage from './routes/Alumni/AboutPage';
+import AlumniExecPage from './routes/Alumni/ExecPage';*/}
+
 
 const routes = (
   <Switch>
@@ -18,6 +22,9 @@ const routes = (
     <Route path="/brothers" component={BrothersPage} />
     <Route path="/rush" component={RushPage} />
     <Route path="/awards" component={AwardsPage} />
+    {/*<Route path="/alumni/home" component={AlumniHomePage} />
+    <Route path="/alumni/about" component={AlumniAboutPage} />
+<Route path="/alumni/execboard" component={AlumniExecPage} />*/}
     <Route component={NotFound} />
   </Switch>
 );
