@@ -41,17 +41,17 @@ const RushPage = () => (
         <p> Come meet the brothers at Meet the Greeks! </p>
       </Event>
 
-        {/*<Event date={'8'} month={'Feb'} eventName={'Meet the Brothers (Of PSK)'} location={'Zoom'} alt>
-        <p><b> Time TBD </b></p>
-        <p> Complete above Google Form for the Zoom Link </p>
+        <Event date={'29'} month={'Aug'} eventName={'Bonfire'} location={'7507 Rhode Island Avenue'} alt>
+        <p><b> Time: 6pm </b></p>
+        <p>  </p>
       </Event>
 
-        <Event date={'9'} month={'Feb'} eventName={'Brother Speed Dating'} location={'Zoom'}>
-        <p><b> Time TBD </b></p>
-        <p> Complete above Google Form for the Zoom Link </p>
+        <Event date={'4/5'} month={'Sep'} eventName={'Interviews'} location={'Invite Only'}>
+        <p><b> </b></p>
+        <p>  </p>
       </Event>
 
-        <Event date={'10'} month={'Feb'} eventName={'Games Night'} location={'Zoom'} alt>
+        {/*<Event date={'10'} month={'Feb'} eventName={'Games Night'} location={'Zoom'} alt>
         <p><b> Time TBD </b></p>
         <p> Complete above Google Form for the Zoom Link </p>
       </Event>

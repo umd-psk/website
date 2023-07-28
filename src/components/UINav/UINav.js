@@ -81,9 +81,9 @@ export default class UINav extends React.PureComponent {
               <NavItem>
                 <BNavLink tag={NavLink} activeClassName="active" to='/awards'>Awards</BNavLink>
               </NavItem>
-              <NavItem>
+              {/*<NavItem>
                 <BNavLink tag={NavLink} activeClassName="active" to='/alumni/home'>Alumni</BNavLink>
-              </NavItem>
+    </NavItem>*/}
               <NavItem>
                 <BNavLink
                   href='https://myphisig.phisigmakappa.org/'
