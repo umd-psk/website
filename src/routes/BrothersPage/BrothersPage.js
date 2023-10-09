@@ -4,6 +4,7 @@ import App from '../../components/App'
 import Brother from '../../components/Brother'
 import allBrothers from './brothers.json'
 import './BrothersPage.css'
+import { media } from 'bootstrap-css'
 
 export default class BrothersPage extends React.Component {
   constructor() {
@@ -17,6 +18,7 @@ export default class BrothersPage extends React.Component {
 
   componentWillMount() {
     let exec = [];
+    
     let brothers = Object.keys(allBrothers).map(function(name, id) {
       let chair = allBrothers[name];
       let content = (
@@ -24,7 +26,23 @@ export default class BrothersPage extends React.Component {
           <Brother chair={chair} brotherName={name} />
         </Col>
       );
-
+      if (window.innerWidth <= 768){
+        if (chair === 'Vice President') {
+          exec[1] = content;
+        } else if (chair === 'President') {
+          exec[0] = content;
+        } else if (chair === 'Secretary') {
+          exec[2] = content;
+        } else if (chair === 'Treasurer') {
+          exec[3] = content;
+        } else if (chair === 'Sentinel') {
+          exec[4] = content;
+        } else if (chair === 'Inductor') {
+          exec[5] = content;
+        } else {
+          return content;
+        }
+      }else {
       if (chair === 'Vice President') {
         exec[0] = content;
       } else if (chair === 'President') {
@@ -40,6 +58,7 @@ export default class BrothersPage extends React.Component {
       } else {
         return content;
       }
+    }
 
       return '';
     });
@@ -63,6 +82,7 @@ export default class BrothersPage extends React.Component {
           <h1 className='pageTitle' data-aos='fade-down'> Brothers </h1>
           <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>{this.currentSemester()}</h2>
           <Row className='brothers text-center justify-content-start'>
+            
             {this.state.exec}
             {this.state.brothers}
           </Row>
