@@ -55,7 +55,7 @@ export default class UINav extends React.PureComponent {
   render() {
     return (
       <div ref="navbar">
-        <Navbar color='faded' light toggleable="sm" fixed={(this.props.fixed) && "bottom"}>
+        <Navbar color='faded'  light  fixed={(this.props.fixed) && "bottom"}>
           <NavbarToggler right onClick={this.toggle} />
           <NavbarBrand className="abs">
             {this.state.title1}
@@ -63,7 +63,7 @@ export default class UINav extends React.PureComponent {
             {this.state.title2}
           </NavbarBrand>
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav navbar>
+            <Nav  navbar>
               <NavItem>
                 <BNavLink exact tag={NavLink} activeClassName="active" to='/'>Home</BNavLink>
               </NavItem>
@@ -74,7 +74,7 @@ export default class UINav extends React.PureComponent {
                 <BNavLink tag={NavLink} activeClassName="active" to='/brothers'>Brothers</BNavLink>
               </NavItem>
             </Nav>
-            <Nav className='ml-auto' navbar>
+            <Nav className='me-auto' navbar>
               <NavItem>
                 <BNavLink tag={NavLink} activeClassName="active" to='/rush'>Rush</BNavLink>
               </NavItem>

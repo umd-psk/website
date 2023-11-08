@@ -26,7 +26,7 @@ export default class BrothersPage extends React.Component {
           <Brother chair={chair} brotherName={name} />
         </Col>
       );
-      if (window.innerWidth <= 768){
+      if (window.innerWidth <= 768){ //Mobile
         if (chair === 'Vice President') {
           exec[1] = content;
         } else if (chair === 'President') {

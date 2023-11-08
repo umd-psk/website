@@ -8,7 +8,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /*Mobile*/
   .nav-link {
     padding-left: 10px !important;
   }

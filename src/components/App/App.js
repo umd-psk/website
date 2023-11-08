@@ -7,7 +7,7 @@ import 'font-awesome/css/font-awesome.css'
 import './App.css'
 
 export default class App extends React.Component {
-  componentWillMount() {
+  componentDidMount() {
     AOS.init();
   }
 
