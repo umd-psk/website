@@ -29,7 +29,7 @@ const UIFooter = () => (
       <h5><b>2 Fraternity Row</b></h5>
       <h5>College Park, MD 20742</h5>
       <br />
-      <a href="mailto:umdpsk.president@gmail.com" target="_top">
+      <a href="mailto: umdpsk.president@gmail.com" target="_top">
         <span className="fa fa-2x fa-envelope"></span>
         <h5>Contact Us</h5>
       </a>
@@ -41,7 +41,12 @@ const UIFooter = () => (
           <b className="text-uppercase">James Corley</b>
         </a>
       </h6>
-      <h5> © 2021 <b>PHI SIGMA KAPPA</b></h5>
+      <h6> Maintained and Updated by <br />
+        <a href="https://github.com/phomann13" target="_blank" rel="noopener noreferrer">
+          <b className="text-uppercase">Parker Homann</b>
+        </a>
+      </h6>
+      <h5> © 2023 <b>PHI SIGMA KAPPA</b></h5>
     </Container>
   </Container>
 );
