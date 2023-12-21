@@ -72,7 +72,7 @@ export default class UINav extends React.PureComponent {
                 <BNavLink tag={NavLink} activeClassName="active" to='/about'>About</BNavLink>
               </NavItem>
               <NavItem>
-                <BNavLink tag={NavLink} activeClassName="active" to='/brothers'>Exec Board</BNavLink>
+                <BNavLink tag={NavLink} activeClassName="active" to='/brothers'>Brothers</BNavLink>
               </NavItem>
             </Nav>
             <Nav className='ml-auto' navbar>
