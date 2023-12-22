@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap'
 import App from '../../components/App'
 import Brother from '../../components/Brother'
 import allBrothers from './brothers.json'
-import './BrothersPage.css'
+import Brothers from './brothers copy.json'
 import { media } from 'bootstrap-css'
 
 export default class BrothersPage extends React.Component {
@@ -19,11 +19,13 @@ export default class BrothersPage extends React.Component {
   componentWillMount() {
     let exec = [];
     
-    let brothers = Object.keys(allBrothers).map(function(name, id) {
-      let chair = allBrothers[name];
+    let brothers = Object.keys(Brothers).map(function(name, id) {
+      let chair = Brothers[name][0];
+      //let loc = Brothers[name][1]
+      //let major = Brothers[name][2]
       let content = (
         <Col md='4' sm='6' xs='12' key={id}>
-          <Brother chair={chair} brotherName={name} />
+          <Brother chair={chair} brotherName={name}/>
         </Col>
       );
       if (window.innerWidth <= 768){ //Mobile
@@ -82,7 +84,7 @@ export default class BrothersPage extends React.Component {
           <h1 className='pageTitle' data-aos='fade-down'> Brothers </h1>
           <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>{this.currentSemester()}</h2>
           <Row className='brothers text-center justify-content-start'>
-            
+          
             {this.state.exec}
             {this.state.brothers}
           </Row>

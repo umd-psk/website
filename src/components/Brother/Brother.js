@@ -1,5 +1,6 @@
 import React from 'react'
 import './Brother.css'
+import Popup from 'reactjs-popup'
 
 const brotherFolder = require.context('./brothers', false);
 
@@ -16,11 +17,18 @@ export default class Brother extends React.Component {
 
     return (
       <div className='brother'>
-        <div className={(notFound) ? 'crop blank' : 'crop'}>
+        <Popup trigger={<button className="button-popup"> <div className={(notFound) ? 'crop blank' : 'crop'}>
           <img src={src} alt='' />
         </div>
         <h3>{this.props.brotherName}</h3>
-        <h5>{this.props.chair}</h5>
+        <h5>{this.props.chair}</h5> </button>} modal>
+    <span> 
+    <h3>{this.props.brotherName}</h3> <br></br>
+        <h5>{this.props.chair}</h5> 
+    
+    </span>
+  </Popup>
+        
       </div>
     );
   }
