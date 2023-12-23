@@ -17,7 +17,7 @@ const RushPage = () => (
       <h1 className='pageTitle' data-aos='fade-down'> Rush </h1>
       <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>{currentSemester()}</h2>
 
-         <h4 className='secondaryText' data-aos='fade-down'><b>Rush Begins Towards the Beginning of the Spring Semester. <a href="https://forms.gle/jwF2iJwDfZKeAKY9A">Fill out our interest form to begin the rush process!</a></b></h4>
+         <h4 className='secondaryText' data-aos='fade-down'><b>Rush Begins Towards the Beginning of the Spring Semester. <br></br> <a href="https://forms.gle/jwF2iJwDfZKeAKY9A">Fill out our interest form to begin the rush process!</a></b></h4>
 
     {/*<div className='video' data-aos='fade-down'>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7hoD-FxwgfFzD9xdmRmpDCPurMWrEISIOn-inPXoFZUB6Ng/viewform?embedded=true" width="640" height="640" max-width="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
