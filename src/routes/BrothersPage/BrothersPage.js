@@ -21,11 +21,17 @@ export default class BrothersPage extends React.Component {
     
     let brothers = Object.keys(Brothers).map(function(name, id) {
       let chair = Brothers[name][0];
-      //let loc = Brothers[name][1]
-      //let major = Brothers[name][2]
+      let loc = Brothers[name][1];
+      let major = Brothers[name][2];
+      let year = (3 < Brothers[name].length) ? Brothers[name][3] : '';
+      let grad = (4 < Brothers[name].length) ? Brothers[name][4] : '';
+      let minors = (5 < Brothers[name].length) ? Brothers[name][5] : '';
+      let email = (6 < Brothers[name].length) ? Brothers[name][6] : '';
+
       let content = (
         <Col md='4' sm='6' xs='12' key={id}>
-          <Brother chair={chair} brotherName={name}/>
+          <Brother chair={chair} brotherName={name} location = {loc} major = {major} year = {year}
+          grad={grad} minors={minors} email = {email}/>
         </Col>
       );
       if (window.innerWidth <= 768){ //Mobile
