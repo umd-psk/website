@@ -17,7 +17,7 @@ const RushPage = () => (
       <h1 className='pageTitle' data-aos='fade-down'> Rush </h1>
       <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>{currentSemester()}</h2>
 
-         <h4 className='secondaryText' data-aos='fade-down'><b>Rush Begins August 27th. <a href="https://docs.google.com/forms/d/1r2z8hAkxg_XAvSnHIC7BRRa76_2IkwH3jyK_tJ2PvTE/viewform?edit_requested=true">Fill out our interest form to begin the rush process!</a></b></h4>
+         <h4 className='secondaryText' data-aos='fade-down'><b>Rush Begins Towards the Beginning of the Spring Semester. <br></br> <a href="https://forms.gle/jwF2iJwDfZKeAKY9A">Fill out our interest form to begin the rush process!</a></b></h4>
 
     {/*<div className='video' data-aos='fade-down'>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7hoD-FxwgfFzD9xdmRmpDCPurMWrEISIOn-inPXoFZUB6Ng/viewform?embedded=true" width="640" height="640" max-width="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
@@ -34,9 +34,9 @@ const RushPage = () => (
     
     
 
-         <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>Schedule</h2>
+         <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>Schedule Coming Soon</h2>
 
-      <Event date={'27'} month={'Aug'} eventName={'Meet the Greeks'} location={'La Plata Beach'}>
+      {/*<Event date={'27'} month={'Aug'} eventName={'Meet the Greeks'} location={'La Plata Beach'}>
         <p><b> Time: 1-5 </b></p>
         <p> Come meet the brothers at Meet the Greeks! </p>
       </Event>
@@ -49,7 +49,7 @@ const RushPage = () => (
         <Event date={'4/5'} month={'Sep'} eventName={'Interviews'} location={'Invite Only'}>
         <p><b> </b></p>
         <p>  </p>
-      </Event>
+</Event>*/}
 
         {/*<Event date={'10'} month={'Feb'} eventName={'Games Night'} location={'Zoom'} alt>
         <p><b> Time TBD </b></p>
