@@ -34,7 +34,7 @@ const RushPage = () => (
     
     
 
-         <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>Schedule</h2>
+         <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>Schedule Coming Soon</h2>
 
       {/*<Event date={'27'} month={'Aug'} eventName={'Meet the Greeks'} location={'La Plata Beach'}>
         <p><b> Time: 1-5 </b></p>
