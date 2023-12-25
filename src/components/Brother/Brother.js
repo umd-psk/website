@@ -35,12 +35,19 @@ export default class Brother extends React.Component {
           <h4>{this.props.chair}</h4> 
           <img src={src} alt='' class="pop-img" />
         <div className='content'>
-          <div class="grid-item"><h5>Hometown: {this.props.location} <hr></hr></h5></div>
-          <div class="grid-item"><h5>Major(s):<br></br> {this.props.major}</h5></div>
-          <div class="grid-item"><h5>Minor(s): <br></br>{this.props.minors}</h5></div>
-          <div class="grid-item"><h5>Year: <br></br>{this.props.year}</h5></div>
-          <div class="grid-item"><h5>Expected Graduation: <br></br>{this.props.grad}</h5></div>
-          <div class="grid-item"><h5>E-mail: <br></br><a href ={"mailto:" + this.props.email}> {this.props.email}</a></h5></div>
+          <div class="grid-item"><h5><strong>Hometown:</strong><br></br> {this.props.location}</h5></div>
+          <div class="grid-item"><h5><strong>Major(s):</strong><br></br> {this.props.major}</h5></div>
+          <div class="grid-item"><h5><strong>Minor(s):</strong><br></br>{this.props.minors}</h5></div>
+          <div class="grid-item"><h5><strong>Year:</strong><br></br>{this.props.year}</h5></div>
+          <div class="grid-item"><h5><strong>Expected Graduation:</strong><br></br>{this.props.grad}</h5></div>
+          <div class="grid-item"><h5><strong>E-mail:</strong><br></br><a href ={"mailto:" + this.props.email}> {this.props.email}</a></h5></div>
+          <div class="grid-item"><h5><strong>Phone Number:</strong><br></br>{this.props.phone}</h5></div>
+          <div class="grid-item"><h5><strong>Previous Chairs:</strong><br></br>{this.props.prev_chair}</h5></div>
+          <div class="grid-item"><h5><strong>Current Occupation:</strong><br></br>{this.props.curr_job}</h5></div>
+          <div class="grid-item"><h5><strong>Favorite Quote:</strong><br></br>{this.props.quote}</h5></div>
+          <div class="grid-item"><h5><strong>Favorite Part of the Fraternity:</strong><br></br>{this.props.fav_part}</h5></div>
+          <div class="grid-item"><h5><strong>Why Rushes Should Join the Fraternity:</strong><br></br>{this.props.new_mem}</h5></div>
+
           
         </div>
       </div>
@@ -50,13 +57,13 @@ export default class Brother extends React.Component {
       
       
       {/*{this.props.brotherName}</h3> <br></br>
-        <h5>{this.props.chair}</h5> 
-        <h5>{this.props.location}</h5>
-        <h5>{this.props.major}</h5>
-        <h5>{this.props.minors}</h5>
-        <h5>{this.props.year}</h5>
-        <h5>{this.props.grad}</h5>
-        <h5>{this.props.email}</h5>*/} 
+        <h5><strong>{this.props.chair}</h5> 
+        <h5><strong>{this.props.location}</h5>
+        <h5><strong>{this.props.major}</h5>
+        <h5><strong>{this.props.minors}</h5>
+        <h5><strong>{this.props.year}</h5>
+        <h5><strong>{this.props.grad}</h5>
+        <h5><strong>{this.props.email}</h5>*/} 
     
     </span>
   </Popup>

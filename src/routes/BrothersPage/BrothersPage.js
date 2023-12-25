@@ -20,18 +20,21 @@ export default class BrothersPage extends React.Component {
     let exec = [];
     
     let brothers = Object.keys(Brothers).map(function(name, id) {
-      let chair = Brothers[name][0];
-      let loc = Brothers[name][1];
-      let major = Brothers[name][2];
-      let year = (3 < Brothers[name].length) ? Brothers[name][3] : '';
-      let grad = (4 < Brothers[name].length) ? Brothers[name][4] : '';
-      let minors = (5 < Brothers[name].length) ? Brothers[name][5] : '';
-      let email = (6 < Brothers[name].length) ? Brothers[name][6] : '';
+      let brother = Brothers[name]
+      let chair = brother.Chairs
+      {/*
+  
+    "Previous_Chairs": "",
+    "Current_Job": "",
+    "Fav_Part_Frat": "",
+    "New_Mem_Join":"",
+    "Fav_Quote":""},*/}
 
       let content = (
         <Col md='4' sm='6' xs='12' key={id}>
-          <Brother chair={chair} brotherName={name} location = {loc} major = {major} year = {year}
-          grad={grad} minors={minors} email = {email}/>
+          <Brother chair={brother.Chairs} brotherName={name} location = {brother.Hometown} major = {brother.Major} year = {brother.Year}
+          grad={brother.Graduation_Year} minors={brother.Minors} email = {brother.Emails} phone={brother.PhoneNumber} prev_chair={brother.Previous_Chairs}
+          curr_job={brother.Current_Job} fav_part={brother.Fav_Part_Frat} new_mem={brother.New_Mem_Join} quote={brother.Fav_Quote} />
         </Col>
       );
       if (window.innerWidth <= 768){ //Mobile
