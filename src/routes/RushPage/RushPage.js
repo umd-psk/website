@@ -17,11 +17,12 @@ const RushPage = () => (
       <h1 className='pageTitle' data-aos='fade-down'> Rush </h1>
       <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>{currentSemester()}</h2>
 
-         <h4 className='secondaryText' data-aos='fade-down'><b>Rush Begins Saturday January 27th. <br></br> <a href="https://forms.gle/v8p4aJF5o6r3EZbFA">Fill out our interest form to begin the rush process!</a></b></h4>
-         <h5>If you have Any questions feel free to reach out to one of our rush chairs: <br></br>
-              Parker Homann -> 267 - 216 - 5865<br></br>
+        {/* <h4 className='secondaryText' data-aos='fade-down'><b>Rush Begins Saturday January 27th. <br></br> <a href="https://forms.gle/v8p4aJF5o6r3EZbFA">Fill out our interest form to begin the rush process!</a></b></h4>*/}
+         <h4 className='secondaryText' data-aos='fade-down'>If you are interested in a mid semester recruitment process contact one of our rush chairs: <br></br> </h4>
+              <h5>Parker Homann -> 267 - 216 - 5865<br></br>
               Jackson LaFever ->  240 - 786 - 8784<br></br>
               George Baldwin ->  301 - 281 - 7640</h5>
+
 
     {/*<div className='video' data-aos='fade-down'>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7hoD-FxwgfFzD9xdmRmpDCPurMWrEISIOn-inPXoFZUB6Ng/viewform?embedded=true" width="640" height="640" max-width="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
@@ -38,7 +39,7 @@ const RushPage = () => (
     
     
 
-         <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>Spring Rush Schedule</h2>
+        {/* <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>Spring Rush Schedule</h2>
 
       <Event date={'27'} month={'Jan'} eventName={'Meet the Greeks'} location={'Riggs Alumni Center: Orem Hall'}>
         <p><b> Time: 3-6 </b></p>
@@ -68,9 +69,9 @@ const RushPage = () => (
         <Event date={'1'} month={'Feb'} eventName={'Invite Only'} location={'Invite Only'} alt>
         <p><b> Time TBD </b></p>
         <p> </p>
-  </Event> 
+  </Event> */}
 
-    </Container>
+</Container> 
 
     <h2 className='pageSubtitle' data-aos='fade-down' data-aos-delay='100'>House Tour</h2>
     <div className='video' data-aos='fade-down'>
