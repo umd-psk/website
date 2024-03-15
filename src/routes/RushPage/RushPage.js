@@ -19,9 +19,9 @@ const RushPage = () => (
 
         {/* <h4 className='secondaryText' data-aos='fade-down'><b>Rush Begins Saturday January 27th. <br></br> <a href="https://forms.gle/v8p4aJF5o6r3EZbFA">Fill out our interest form to begin the rush process!</a></b></h4>*/}
          <h4 className='secondaryText' data-aos='fade-down'>If you are interested in a mid semester recruitment process contact one of our rush chairs: <br></br> </h4>
-              <h5>Parker Homann -> 267 - 216 - 5865<br></br>
+             {/* <h5>Parker Homann -> 267 - 216 - 5865<br></br>
               Jackson LaFever ->  240 - 786 - 8784<br></br>
-              George Baldwin ->  301 - 281 - 7640</h5>
+            George Baldwin ->  301 - 281 - 7640</h5>*/}
 
 
     {/*<div className='video' data-aos='fade-down'>

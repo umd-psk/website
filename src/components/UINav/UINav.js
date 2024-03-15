@@ -6,7 +6,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 import wPhiSig from './whitePhiSig.svg'
 import rPhiSig from './redPhiSig.svg'
 import './UINav.css'
-
+//<NavItem>
+//<BNavLink tag={NavLink} activeClassName="active" to='/brothers'>Brothers</BNavLink>
+//</NavItem>
 export default class UINav extends React.PureComponent {
   constructor(props) {
     super(props);
@@ -71,9 +73,7 @@ export default class UINav extends React.PureComponent {
               <NavItem>
                 <BNavLink tag={NavLink} activeClassName="active" to='/about'>About</BNavLink>
               </NavItem>
-              <NavItem>
-                <BNavLink tag={NavLink} activeClassName="active" to='/brothers'>Brothers</BNavLink>
-              </NavItem>
+              
             </Nav>
             <Nav className='ml-auto' navbar>
               <NavItem>
